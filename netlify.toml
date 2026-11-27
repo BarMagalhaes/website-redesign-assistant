@@ -1,0 +1,5 @@
+[build]
+  command = "bun run build"
+  # On Netlify, Nitro auto-selects the Netlify preset and writes client assets
+  # to dist/ (the server is emitted as a Netlify Function).
+  publish = "dist"
